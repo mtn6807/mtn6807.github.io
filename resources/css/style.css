@@ -21,3 +21,9 @@ text-decoration: none;
 li a:hover {
 background-color: #111;
 }
+body {
+    background-image:linear-gradient(to bottom right, black, green);
+    height:auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
