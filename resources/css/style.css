@@ -1,5 +1,6 @@
 p {color: green;font: 1.3rem Inconsolata, monospace;}
-h1 {color:green; border-bottom: 1px solid white}
+h1 {color:green; border-bottom: 1px solid white;font: 1.3rem Inconsolata, monospace;}
+h2 {color:green;font: 1.3rem Inconsolata, monospace;}
 ul {
     list-style-type: none;
     margin: 0;
