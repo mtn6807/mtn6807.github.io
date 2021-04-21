@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href='resources/css/style.css'>
+</head>
+    <body style="background-image:url('resources/img/hacker.jpg')">
+        <main style="background-color:black;padding: 1rem;margin: auto;max-width: 800px;overflow: auto;">
+            <ul>
+                <li><a href='index.html'>$ > Home</a></li>
+                <li><a href='about.html'>$ > More About Me</a></li>
+                <li><a href='project.html'>$ > Projects</a></li>
+                <li><a href='resume.html'>$ > Resume</a></li>
+                <li><a href='contact.html'>$ > Contact Me</a></li>
+            </ul>
+            
+            <div style="padding: 1rem;margin: auto;max-width: 800px;overflow: auto;">
+                <h1>$ > git fetch</h1>
+                <h2>Stock Analytics</h2>
+                <p>
+                    My stock analytics project started out as a friend writing a small python script to analyze stock data. I 
+                    thought it was an intesting project and they were lacking in web app design knowledge so I came on to help. 
+                    I started by creating an architecture diagram and getting a trello board set up. Our project was to have 
+                    dockerized Python bots which would pull in our data and perform our custom data analysis. From there it would 
+                    send HTTP requests to an ingestion API, written in Node using Express, which would then store our data in a db. 
+                    From there we had another API also using express which would serve data to our webapp. To accomplish this goal 
+                    I ran a small team of around 8 developers, as well as did a lot of the development myself.
+                </p>
+                <h2>Dependency Check Wrapper</h2>
+                <p>
+                    DevSecOps has become a bigger focus of my career as of about a year ago. I became fascinated with open source 
+                    security tools. OWASP is an amazing organization which has made many open source tools and guides that have helped 
+                    me alot, one being OWASP's Dependency Checker. The downside to Dependency Checker though is that it is only run in 
+                    local instance, which wouldn't be very useful for a software development organization. So I created a webserver and 
+                    client which would run a dependency chcker scans and upload the result to the webserver where anyone could see. It is 
+                    not the most elegant solution but one that does solve an important problem. You can see my blog post on it  
+                    <a href="resources/pdfs/DevOps_Blog.pdf">here</a>.
+                </p>
+                <h2>Personal Website</h2>
+                <p>
+                    My personal website was originally the result of the RITSec mentorship program. None of my group members had any 
+                    familiarity with HTML so we decided to use Github pages and make personal websites. It was a fun and quick project where 
+                    I learned how to use Github pages. From there I spent some time learning how to embed PDFs, and eventually how to handle 
+                    multiple pages and basics like that. While I don't consider myself a web designer by any means I am at least comfortable 
+                    with HTML and it is now what I'd consider to be an active learning subject for me.
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
